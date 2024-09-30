@@ -15,8 +15,7 @@
 
 ## 2.1 Git konfigurieren (Name und E-Mail)
 Jeder Entwickler muss sich identifizieren:
-bash
-Code kopieren
+n
 git config --global user.name "Dein Name"
 git config --global user.email "deine-email@example.com"
 
@@ -24,15 +23,13 @@ git config --global user.email "deine-email@example.com"
 
 ## 3.1 Datei erstellen und hinzufügen
 Eine neue Datei (z.B. README.md) erstellen und sie mit Git verfolgen:
-bash
-Code kopieren
+
 echo "# Mein Projekt" > README.md
 git add README.md
 
 ## 3.2 Änderungen committen
 Die Änderungen werden mit einem Commit gespeichert:
-bash
-Code kopieren
+
 git commit -m "Initial commit mit README.md"
 
 # 4. Verbindung zu einem Remote-Repository
@@ -42,8 +39,7 @@ Ein neues Repository auf GitHub erstellen.
 
 ## 4.2 Remote-Repository hinzufügen
 Das Remote-Repository lokal verknüpfen:
-bash
-Code kopieren
+
 git remote add origin https://github.com/dein-benutzername/dein-repository.git
 git push -u origin main
 
@@ -51,18 +47,15 @@ git push -u origin main
 
 ## 5.1 Änderungen pushen und pullen
 Änderungen ins Remote-Repository hochladen:
-bash
-Code kopieren
+
 git push
 Änderungen vom Remote-Repository herunterladen:
-bash
-Code kopieren
+
 git pull
 
 ## 5.2 Konflikte auflösen
 Falls Konflikte auftreten, diese manuell bearbeiten, dann die Änderungen committen und pushen:
-bash
-Code kopieren
+
 git add .
 git commit -m "Konflikte gelöst"
 git push
@@ -71,14 +64,12 @@ git push
 
 ## 6.1 Neuen Branch erstellen
 Für die Entwicklung eines neuen Features einen separaten Branch erstellen:
-bash
-Code kopieren
+
 git checkout -b feature/neues-feature
 
 ## 6.2 Änderungen im Branch vornehmen und committen
 Änderungen vornehmen und regelmäßig committen:
-bash
-Code kopieren
+n
 git add .
 git commit -m "Feature hinzugefügt"
 
@@ -86,12 +77,10 @@ git commit -m "Feature hinzugefügt"
 
 ## 7.1 Branch in den Haupt-Branch mergen
 Zurück in den main Branch wechseln:
-bash
-Code kopieren
+
 git checkout main
 Den Feature-Branch in den main Branch mergen:
-bash
-Code kopieren
+
 git merge feature/neues-feature
 
 ## 7.2 Pull Request 
