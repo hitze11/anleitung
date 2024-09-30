@@ -1,5 +1,3 @@
-# Anleitung
-
 # Git-Anleitung für Team-Entwickler
 
 
